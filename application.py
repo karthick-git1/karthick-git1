@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<html><head>
+    return '<html><head>
 	<meta name="viewport" content="width=device-width">
 	<link href="styles/style.css" rel="stylesheet">
 </head>
@@ -34,4 +34,4 @@ def hello():
 
 
 	
-</body></html>	\n"
+</body></html>	\n'
